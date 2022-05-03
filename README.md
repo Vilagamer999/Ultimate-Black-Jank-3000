@@ -1,6 +1,6 @@
 <hr>
 
-![Banner](https://github.com/Vilagamer999/Ultimate-Black-Jank-3000/blob/main/Screenshots/Banner.png)
+![Banner](https://github.com/Vilagamer999/Ultimate-Black-Jank-3000/blob/main/Screenshots/Bannerz.png)
 
 <hr>
 
