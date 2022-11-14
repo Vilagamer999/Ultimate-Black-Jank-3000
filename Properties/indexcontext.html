@@ -1,0 +1,64 @@
+<head>
+  <style>
+    body {
+      background-color: #36393e;
+    }
+
+    .verticalhorizontal {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #ffffff
+    }
+
+    .fadeit {
+      -webkit-animation: fadeinout 10s linear forwards;
+      animation: fadeinout 10s linear forwards;
+    }
+
+    @-webkit-keyframes fadeinout {
+      0% {
+        opacity: 0;
+      }
+
+      10% {
+        opacity: 1;
+      }
+
+      90% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeinout {
+      0% {
+        opacity: 0;
+      }
+
+      10% {
+        opacity: 1;
+      }
+
+      90% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <meta http-equiv="refresh" content="10;url=main.html" />
+
+  <div class="fadeit">
+    <div class="verticalhorizontal">
+      <h1>Context:</h1>
+      <h3>"3xl.net" was a catalan forum made by the ccma for teens that ran from 2004 to 2008, I decided to replicate the
+        website and make my own "account" on it.</h3>
+      <button type="button" onclick="window.location.href='main.html';"> Cool </button>
+    </div>
+  </div>
+  <!--<div class="verticalhorizontal">
+    <h1>loading</h1>
+</div>-->
+</body>
